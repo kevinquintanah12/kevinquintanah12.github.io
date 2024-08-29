@@ -1,0 +1,17 @@
+/* Estilo para la imagen circular */
+.circular-image {
+    border-radius: 50%;
+    width: 100px; /* Ajusta el tamaño si es necesario */
+    height: 100px; /* Ajusta el tamaño si es necesario */
+    object-fit: cover; /* Asegura que la imagen cubra el área del contenedor */
+}
+
+/* Opcional: estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
