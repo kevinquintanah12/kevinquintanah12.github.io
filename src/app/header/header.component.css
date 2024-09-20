@@ -1,0 +1,109 @@
+/* Estilo para la imagen circular */
+.circular-image {
+    border-radius: 50%;
+    width: 100px; /* Ajusta el tamaño si es necesario */
+    height: 100px; /* Ajusta el tamaño si es necesario */
+    object-fit: cover; /* Asegura que la imagen cubra el área del contenedor */
+}
+
+
+/* Estilo general del cuerpo */
+body {
+    background-color: #0a0f25; /* Azul oscuro espacial */
+    color: #e0e0e0; /* Texto claro para contraste */
+    font-family: 'Roboto', sans-serif; /* Fuente moderna y limpia */
+    margin: 0;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+/* Tabla central */
+table {
+    width: 90%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    background-color: #111a40; /* Azul más oscuro para contraste */
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+    padding: 20px;
+}
+
+/* Estilo para las celdas de la tabla */
+td {
+    padding: 20px;
+    vertical-align: middle;
+    color: #e0e0e0;
+}
+
+/* Nombre del perfil */
+table p:first-child {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0;
+    color: #4cc9f0; /* Azul tecnológico brillante */
+}
+
+/* Descripción */
+table p:nth-child(2) {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #8be9fd;
+}
+
+/* Imagen circular */
+.circular-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #4cc9f0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Lista de información */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1em;
+    margin: 10px 0;
+    color: #e0e0e0;
+    font-weight: 400;
+}
+
+/* Añadir líneas futuristas debajo del texto */
+ul li:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #4cc9f0;
+    margin-bottom: 4px;
+    opacity: 0.4;
+}
+
+/* Estilo del hover en la lista */
+ul li:hover {
+    color: #4cc9f0;
+    cursor: pointer;
+}
+
+/* Media Queries para responsive */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    td {
+        display: block;
+        text-align: center;
+    }
+
+    .circular-image {
+        margin: 20px auto;
+    }
+}
