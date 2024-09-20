@@ -24,8 +24,8 @@ export class WorkExperienceComponent {
       puesto: 'CEO',
       empresa: 'Waves Lab',
       logros: [
-        { descripcion: 'Construcción de un ERP en la nube de Google' },
-        { descripcion: 'Creación de un clúster en Hadoop y Spark' },
+        { descripcion: 'Development of an ERP in Google Cloud' },
+        { descripcion: 'Development of a Cluster in Hadoop and Spark' },
       ],
     };
 
@@ -35,8 +35,8 @@ export class WorkExperienceComponent {
       puesto: 'CEO',
       empresa: 'Kubeet',
       logros: [
-        { descripcion: 'Construcción de un invernadero hidropónico' },
-        { descripcion: 'Creación de un dron autónomo' },
+        { descripcion: 'Development of a Hydroponic Greenhouse' },
+        { descripcion: 'Development of an Autonomous Drone' },
       ],
     };
 
