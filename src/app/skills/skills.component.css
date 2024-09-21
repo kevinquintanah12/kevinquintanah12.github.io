@@ -1,7 +1,7 @@
 /* Contenedor de habilidades */
 .skills-container {
     width: 100%;
-    max-width: 800px; /* Más ancho */
+    max-width: 400px; /* Más ancho */
     margin: 20px auto 0 auto; /* Asegura que esté centrado horizontalmente y ligeramente separado de la parte superior */
     background-color: #0a0f25; /* Fondo azul oscuro espacial */
     padding: 30px; /* Espacio interno */
