@@ -1,0 +1,43 @@
+/* Estilo general para el cuerpo de la aplicación */
+body {
+    background-color: #4169e1; /* Azul rey */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Estilo para la tabla */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Estilo para las celdas de la tabla */
+  td {
+    padding: 20px;
+    vertical-align: top;
+    border: #fcfdff; /* Sin borde para resaltar la sombra */
+    background-color: #0c1636; /* Fondo blanco */
+    margin-bottom: 20px; /* Espacio entre las celdas */
+  }
+  
+  /* Estilo para los encabezados dentro de los componentes */
+  h3 {
+    margin: 0 0 15px 0; /* Margen inferior para separar del contenido */
+    color: #4169e1; /* Color de texto azul rey */
+  }
+  
+  /* Responsividad */
+  @media (max-width: 600px) {
+    table {
+      display: block;
+      overflow-x: auto;
+    }
+  
+    td {
+      display: block; /* Hacer las celdas de bloque en pantallas pequeñas */
+      width: 100%; /* Ancho completo */
+    }
+  }
+  
